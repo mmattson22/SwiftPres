@@ -19,10 +19,10 @@
     <hr>
     <h2> Objective C vs Swift </h2>
     Here is how we declare a function in Swift:
-    'func someFunction(s:String, i: Int) -> Bool
+    <code>func someFunction(s:String, i: Int) -> Bool
 {
-    ...    // code
-}'
+    ...    code
+}</code>
     <hr>
     <h2> Details </h2>
     <ul>
