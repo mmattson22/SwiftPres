@@ -18,10 +18,14 @@
     </ul>
     <hr>
     <h2> Objective C vs Swift </h2>
-    Here is how we declare a function in Swift:
-    <code>func someFunction(s:String, i: Int) -> Bool
-{
-    ...    code
+    Here is how we declare a function in Swift:<br>
+    <code>func someFunction(s:String, i: Int) -> Bool <br>
+{<br>
+    ...  <br>
+}</code><br>
+   As opposed to one in Objective C:<br>
+   <code>int getRandomInteger(int minimum, int maximum) {<br>
+    return arc4random_uniform((maximum - minimum) + 1) + minimum;<br>
 }</code>
     <hr>
     <h2> Details </h2>
@@ -45,14 +49,8 @@
     <hr>
     <h2> Functions </h2>
     <ul>
-      <li>Example Declaration:</li>
-      <ul>
-        <li>func someFunction(s:String, i: Int) -> Bool
-          {
-            ...    // code
-          }</li>
-      </ul>
-      <li>Functions can return other functions</li>
+      <li>Swift functions are first-class types. This means that you can assign functions to variables, pass them as parameters to other functions, or make them return types.</li>
+      <li>Swift Functions can also return multiple values using tuples.</li>
     </ul>
     <hr>
     <h2>Read-Eval-Print-Loop</h2>
@@ -61,10 +59,7 @@
       <li>Accessible from terminal.</li>
       <li>Interactive version of Swift for speedy testing and debugging.</li>
       <li>Easiest place to run your code pre deployment</li>
-
-      <hr>
-      <br>
-      <br>
+    </ul>
 
   </body>
 </html>
